@@ -1,0 +1,12 @@
+.container{
+background-color:  #d1411e;
+height: calc(100vh - 100px);
+}
+.arrowContainer{
+    bottom: 0;
+    height: 20%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 10%;
+}
