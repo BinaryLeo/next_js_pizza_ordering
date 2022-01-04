@@ -10,12 +10,12 @@ const Featured = () => {
         "/img/featured2.png"
     ]
   
-   const handleArrow = (direction) =>{
+   const handleArrow = (direction) =>{ // direction as parameter  < left | or | right >
     if(direction==="l"){
-        setIndex(index !== 0 ? index-1 : 2)
+        setIndex(index !== 0 ? index-1 : 2) // decrease until index is 2
     }
     if(direction==="r"){
-        setIndex(index !== 2 ? index+1 : 0)
+        setIndex(index !== 2 ? index+1 : 0) // increase until index is 0
     }
 }
 
@@ -24,7 +24,7 @@ const Featured = () => {
         <div className={styles.arrowContainer}  style={{left:0}} onClick={() => handleArrow("l")}>
         <Image src={"/img/arrowl.png"} alt="" layout="fill" objectFit='contain'/>
         </div>
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} style={{transform:`translateX(${-100*index}vw)`}}>
         
         {images.map((img, i)=>(
             <div className={styles.imgContainer}  key={i} >
