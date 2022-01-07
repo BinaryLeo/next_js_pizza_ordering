@@ -1,32 +1,32 @@
 .container{
-      background-color:#222;
-      display:flex;
-      height: calc(100vh - 100px);
+        background-color:#222;
+        display:flex;
+        height: calc(100vh - 100px);
   }
 .item{
-      display:flex;
-      position:relative;
+        display:flex;
+        position:relative;
 
     flex:1;
   }
 .item:last-child {
-      justify-content:space-between;
-      padding:50px;
+        justify-content:space-between;
+        padding:50px;
 
     flex:2;
   }
 .card{
-      padding:0 20px;
+        padding:0 20px;
 
     flex:1;
   }
 .title{
-      color: #b7903c;
-      font-size:18px;
+        color: #b7903c;
+        font-size:18px;
   }
 .text{
-      color:#eaeaea;
+        color:#eaeaea;
   }
 .motto{
-    color:  rgb(211,211,211);
+      color:  rgb(211,211,211);
 }
