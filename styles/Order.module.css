@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  padding: 50px;
+}
+.left {
+  flex: 2;
+}
+.right {
+  flex: 1;
+}
+.table {
+  margin-bottom: 50px;
+  text-align: left;
+  width: 100%;
+}
+.wrapper {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 300px;
+  padding: 10px 50px 50px 50px;
+  width: 90%;
+}
+.totalTextTitle {
+  margin-right: 10px;
+}
+.button {
+  background-color: #fff;
+  border: none;
+  color: #008080;
+  cursor: not-allowed;
+  font-size: 16px;
+  font-weight: bold;
+  height: 300px;
+  margin-top: 15px;
+}
+.row:last-child {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.done {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inProgress {
+  animation: inProgress 1s ease infinite alternate;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.undone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.3;
+}
+.undone .checkedIcon,
+.inProgress .checkedIcon {
+  display: none;
+}
+@keyframes inProgress {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 480px) {
+  .address::before {
+    content: 'Address:';
+  }
+  .address::before {
+    content: 'Address: ';
+    font-weight: 500;
+  }
+  .id::before {
+    content: 'Order Id:';
+    font: bold;
+  }
+  .id::before {
+    content: 'Order ID: ';
+    font-weight: 500;
+  }
+  .name::before {
+    content: 'Customer:';
+    font: bold;
+  }
+  .name::before {
+    content: 'Customer: ';
+    font-weight: 500;
+  }
+  .row:last-child {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .total::before {
+    content: 'Total:';
+  }
+  .total::before {
+    content: 'Total: ';
+    font-weight: 500;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  .trTitle {
+    display: none;
+  }
+  .tr {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  .trTitle {
+    display: none;
+  }
+  .tr {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+  .button {
+    height: 50px;
+  }
+  .done,
+  .undone,
+  .inProgress {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+}

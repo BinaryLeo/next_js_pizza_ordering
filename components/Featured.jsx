@@ -17,7 +17,7 @@ const Featured = () => {
     if(direction==="r"){
         setIndex(index !== 2 ? index+1 : 0) // increase until index is 0
     }
-}
+};
 
     return (
         <div className={styles.container}>
@@ -37,7 +37,7 @@ const Featured = () => {
         <Image src={"/img/arrowr.png"} alt="" layout="fill" objectFit='contain'/>
         </div>
         </div>
-    )
-}
+    );
+};
 
 export default Featured

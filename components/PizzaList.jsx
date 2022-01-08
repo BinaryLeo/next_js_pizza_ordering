@@ -19,7 +19,7 @@ const PizzaList = () => {
     </div>
     </div>
     
-  )
-}
+  );
+};
 
 export default PizzaList

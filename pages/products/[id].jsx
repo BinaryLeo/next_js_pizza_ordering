@@ -19,8 +19,8 @@ const Product = () => {
           <Image src={PIZZA.img} layout="fill" alt="" />
         </div>
       </div>
+
       <div className={styles.right}>
-        <div className={styles.imgContainer}>
           <h1 className={styles.title}>{PIZZA.name}</h1>
           <span className={styles.price}>${PIZZA.price[SIZE]}</span>
           <p className={styles.desc}>{PIZZA.desc}</p>
@@ -69,7 +69,7 @@ const Product = () => {
           <div className={styles.add}><input className={styles.quantity} type="number" defaultValue={1}/>
           <button className={styles.button}>Add to Cart</button>
           </div>
-        </div>
+       
       </div>
     </div>
   )
