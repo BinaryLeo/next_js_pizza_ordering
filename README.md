@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center" style="margin: 20px; text-align: center">
+Matteo's Pizza 🍕 FRONT-END - A Responsive Restaurant Website using NEXT.js
 
-## Getting Started
+Built with love love and burning my 🧠 brain [Find me on Linkedin!](https://www.linkedin.com/in/leonardo-moura-92b513209/)
 
-First, run the development server:
+The BACKEND is available in another ![repository](https://github.com/BinaryLeo/backend_next_js_pizza_ordering) (Status: In development⚠️)
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
+<div align="center" style="margin: 20px; text-align: center">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/BinaryLeo/next_js_pizza_ordering/blob/main/LICENSE)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/BinaryLeo/next_js_pizza_ordering?style=flat-square)
+  ![GitHub top language](https://img.shields.io/github/languages/top/BinaryLeo/next_js_pizza_ordering?style=flat-square)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+</div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<br/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Untitled-1](https://user-images.githubusercontent.com/72607039/148702101-e7ee910c-15c2-4366-8a95-b3642cb8e169.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 technologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project was built using the following technologies and features:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Javascript
+- [Next.js](https://nextjs.org/)
+- VS Code
 
-## Deploy on Vercel
+## 💡 how to use
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Clone this repository
+- run:
+ <code>npm install</code>
+ <code>npm run dev</code> or <code> yarn dev</code>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open http://localhost:3000 with your browser to see the result.
+
+## 📄 License
+
+This project was built under MIT. See the file [LICENSE](LICENSE) for more details.
+
+---
+
+Promo Slider
+A responsive react component built to load images using useState.<br/>
+Pictures designed using Corel Draw - latest edition
+
+![slider](https://user-images.githubusercontent.com/72607039/148701706-7638bdb7-83de-444d-bbcd-8780660f77da.gif)
+
+
+Products Gallery
+
+![products](https://user-images.githubusercontent.com/72607039/148702126-a37b081e-f6ec-487a-bb01-07a1d8383f99.gif)
+
+
+Order Status ... makes me anxious 😧 waiting for some change!
+
+![status](https://user-images.githubusercontent.com/72607039/148702129-5c50b777-40a5-41cf-845a-cbccb81a8568.gif)
+
+
+Responsive Design
+<br/>
+
+
+![responsive](https://user-images.githubusercontent.com/72607039/148702135-89367201-1a2d-42a7-99bc-572b2f61db78.gif)
+
