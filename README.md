@@ -1,7 +1,7 @@
 <div align="center" style="margin: 20px; text-align: center">
 Matteo's Pizza 🍕 FRONT-END - A Responsive Restaurant Website using NEXT.js
 
-Built with love love and burning my 🧠 brain [Find me on Linkedin!](https://www.linkedin.com/in/leonardo-moura-92b513209/)
+Built with love and burning my 🧠 brain [Find me on Linkedin!](https://www.linkedin.com/in/leonardo-moura-92b513209/)
 
 The BACKEND is available in another ![repository](https://github.com/BinaryLeo/backend_next_js_pizza_ordering) (Status: In development⚠️)
 </div>
