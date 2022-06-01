@@ -1,5 +1,5 @@
 import styles from '../../styles/Order.module.css'
-import Image from 'Next/image'
+import Image from 'next/image'
 
 const  Order = () => {
 

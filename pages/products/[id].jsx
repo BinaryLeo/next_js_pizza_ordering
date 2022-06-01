@@ -1,5 +1,5 @@
 import styles from '../../styles/Product.module.css'
-import Image from 'Next/image'
+import Image from 'next/image'
 import { useState } from 'react'
 
 const Product = () => {

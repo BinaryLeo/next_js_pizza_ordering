@@ -1,5 +1,5 @@
 import styles from "../styles/Footer.module.css";
-import Image from "Next/image"
+import Image from "next/image"
 const Footer = () => {
     return (
         <div className={styles.container}>
